@@ -1,0 +1,53 @@
+.weather-image{
+  width: 50px;
+  object-fit: cover;
+}
+.week{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  color:white;
+  width: 32vw;
+  border-radius:10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.each-day{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:20px ;
+  border-bottom: 1px solid black;
+
+  &.last{
+    border-bottom: none;
+  }
+}
+
+.climate{
+  display: flex;
+  width: 15%;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.day{
+  align-self: center;
+}
+
+.temperature{
+  align-self: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .week {
+    width: 100%;
+  }
+}
+

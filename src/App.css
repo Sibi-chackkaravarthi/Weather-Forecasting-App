@@ -1,0 +1,17 @@
+.app{
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .today{
+    background: rgba(255, 255, 255, 0.03);
+  }
+}

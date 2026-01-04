@@ -1,0 +1,17 @@
+.details{
+  
+  color: white;
+  margin-top: 5%;
+}
+
+.sun-image{
+  width: 100px;
+}
+
+.current-data{
+  display: flex;
+  justify-content: space-around;
+}
+.image{
+  align-self: center;
+}
